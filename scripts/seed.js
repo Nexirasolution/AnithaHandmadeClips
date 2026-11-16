@@ -25,7 +25,7 @@ async function main() {
   const Settings = mongoose.models.Settings || mongoose.model('Settings', SettingsSchema);
 
   // 1. Admin account
-  const email = (process.env.ADMIN_EMAIL || 'shalu199631@gmail.com').toLowerCase();
+  const email = (process.env.ADMIN_EMAIL || 'anitha.raji91@gmail.com').toLowerCase();
   const existingAdmin = await Admin.findOne({ email });
   if (!existingAdmin) {
     const passwordHash = await bcrypt.hash(process.env.ADMIN_PASSWORD || 'ChangeMe123!', 10);
@@ -60,16 +60,16 @@ async function main() {
   if (!existingSettings) {
     await Settings.create({
       key: 'global',
-      storeName: 'Aara Handmade Bangles',
-      whatsapp: '918778695195',
-      phone: '918778695195',
-      email: 'shalu199631@gmail.com',
-      instagram: 'aara_handmade_bangles',
-      address: 'No. 95, Thiruvallur Street, Mettu Mangalam, Thirukazhukundram, Chengalpattu District, Tamil Nadu - 603109',
+      storeName: 'Anitha Handmade Clips',
+      whatsapp: '919345864644',
+      phone: '919345864644',
+      email: 'anitha.raji91@gmail.com',
+      instagram: 'anitha_handmade_clips',
+      address: 'No. 34, Balaji Street, Thirunagar, Madurai, Tamil Nadu - 625006',
       shippingFee: 49,
       freeShippingAbove: 999,
-      seoTitle: 'Aara Handmade Bangles | Handcrafted Bangles Online',
-      seoDescription: 'Shop beautiful handmade bangles from Aara Handmade Bangles, Thirukazhukundram, Chengalpattu.'
+      seoTitle: 'Anitha Handmade Clips | Handmade & Customized Hair Accessories Online',
+      seoDescription: 'Shop beautiful handmade and customized hair clips and accessories from Anitha Handmade Clips, Thirunagar, Madurai.'
     });
     console.log('Created default store settings.');
   }

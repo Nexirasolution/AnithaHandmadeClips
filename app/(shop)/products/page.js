@@ -50,7 +50,7 @@ async function getAllProducts(sort) {
 }
 
 export const metadata = {
-  title: 'All Products | Aara Handmade Bangles',
+  title: 'All Products | Anitha Handmade Clips',
 };
 
 export default async function ProductsPage({ searchParams }) {

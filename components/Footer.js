@@ -28,9 +28,9 @@ async function getCategories() {
 }
 
 export default async function Footer() {
-  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP || '918778695195';
-  const phoneDisplay = '+91 87786 95195';
-  const email = 'shalu199631@gmail.com';
+  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP || '919345864644';
+  const phoneDisplay = '+91 93458 64644';
+  const email = 'anitha.raji91@gmail.com';
   const instagram =
     process.env.NEXT_PUBLIC_INSTAGRAM ||
     'https://www.instagram.com/aara_handmade_bangles';
@@ -54,15 +54,15 @@ export default async function Footer() {
         {/* Brand column */}
         <div className="sm:col-span-4">
           <h3 className={`${display.className} text-2xl leading-tight mb-4`} style={{ color: WHITE, fontWeight: 700 }}>
-            Aara Creation
+            Anitha Handmade Clips
           </h3>
 
           <p className="flex items-start gap-1.5 text-xs font-medium leading-relaxed" style={{ color: WHITE_SOFT }}>
             <MapPin size={14} className="shrink-0 mt-0.5" style={{ color: ACCENT }} />
             <span>
-              No. 95, Thiruvallur Street,<br />
-              Mettu Mangalam, Thirukazhukundram,<br />
-              Chengalpattu District, Tamil Nadu 603109
+              No. 34, Balaji Street,<br />
+              Thirunagar, Madurai,<br />
+              Tamil Nadu 625006
             </span>
           </p>
 
@@ -93,7 +93,7 @@ export default async function Footer() {
       >
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-[11px] font-medium" style={{ color: ACCENT }}>
-            © {new Date().getFullYear()} Aara Handmade Bangles. All rights reserved.
+            © {new Date().getFullYear()} Anitha Handmade Clips. All rights reserved.
           </p>
 
           <a

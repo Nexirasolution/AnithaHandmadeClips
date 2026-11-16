@@ -80,7 +80,7 @@ export default function AdminShell({ admin, children }) {
         >
           <div className="flex flex-col leading-tight">
             <span className="font-medium text-base" style={{ color: ACCENT }}>
-              Aara Handmade Bangles
+              Anitha Handmade Clips
             </span>
             <span
               className="text-[10px] tracking-widest uppercase mt-0.5"
@@ -170,7 +170,7 @@ export default function AdminShell({ admin, children }) {
             <Menu size={22} />
           </button>
           <span className="font-medium text-base" style={{ color: INK }}>
-            Aara Handmade Bangles Admin
+            Anitha Handmade Clips Admin
           </span>
         </header>
 

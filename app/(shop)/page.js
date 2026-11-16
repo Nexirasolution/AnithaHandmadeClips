@@ -276,7 +276,7 @@ export default async function HomePage() {
 
   return (
     <div className="overflow-x-hidden" style={{ background: WHITE, color: INK }}>
-      <style>{CSS}</style>
+      <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       {/* Banner */}
       <BannerCarousel banners={banners} />

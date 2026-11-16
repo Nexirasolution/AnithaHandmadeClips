@@ -44,7 +44,7 @@ export async function generateMetadata() {
     metadataBase: getSiteUrl(),
     keywords: ['women kurtis online', 'nighties online', 'innerwear online', 'Sri Vilvah Clothings', 'women fashion'],
     openGraph: { title, description, siteName: 'Sri Vilvah Clothings', type: 'website' },
-    icons: { icon: '/favicon.ico' },
+    icons: { icon: '/favicon.png' },
   };
 }
 

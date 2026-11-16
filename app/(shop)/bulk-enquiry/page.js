@@ -20,7 +20,7 @@ const HAIRLINE = 'rgba(45, 16, 40, 0.18)';
 const CARD_LINE = 'rgba(45, 16, 40, 0.12)';
 const ERROR = '#B00020';
 
-const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP || '918778695195';
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP || '919345864644';
 
 const FALLBACK_PRODUCTS = ['Kurtis', 'Nighties', 'Innerwear', 'Other'];
 

@@ -117,7 +117,7 @@ export default function BannerCarousel({ banners }) {
 
   return (
     <section className="w-full" style={{ background: CREAM }}>
-      <style>{CSS}</style>
+      <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       {/* Inset rounded card instead of a full-bleed strip */}
       <div className="mx-auto max-w-[1600px] px-3 sm:px-6 py-3 sm:py-6">

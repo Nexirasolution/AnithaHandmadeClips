@@ -310,7 +310,7 @@ export default function Navbar() {
 
   return (
     <>
-      <style>{CSS}</style>
+      <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       <CouponMarquee />
 
@@ -434,7 +434,7 @@ export default function Navbar() {
                   transition: `transform .45s ${EASE}`,
                 }}
               >
-                <Image src="/logo.png" alt="Tirupur Clothing Hub" fill className="object-contain" priority />
+                <Image src="/Anitha Handmade Clips Logo Badge.png" alt="Anitha Handmade Clips" fill className="object-contain" priority />
               </div>
             </Link>
 
@@ -491,7 +491,7 @@ export default function Navbar() {
                 autoFocus
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search kurtis, nighties, innerwear..."
+                placeholder="Search clips, bows, hair accessories..."
                 className="bg-transparent outline-none w-full text-sm"
                 style={{ color: INK }}
               />
@@ -509,7 +509,7 @@ export default function Navbar() {
             style={{ borderBottom: `1px solid ${LINE}` }}
           >
             <div className="relative w-16 h-16">
-              <Image src="/logo.png" alt="Tirupur Clothing Hub" fill className="object-contain" />
+              <Image src="/Anitha Handmade Clips Logo Badge.png" alt="Anitha Handmade Clips" fill className="object-contain" />
             </div>
             <button className="nv-icon w-10 h-10" onClick={closeMobileMenu} aria-label="Close menu">
               <Burger open />

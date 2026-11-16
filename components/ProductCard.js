@@ -239,7 +239,7 @@ export default function ProductCard({ product }) {
 
   return (
     <div className="pc-card" style={{ fontFamily: FONT_SANS }}>
-      <style>{CSS}</style>
+      <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       {/* Image (the card's overflow:hidden gives it the rounded top corners) */}
       <div className="relative">
